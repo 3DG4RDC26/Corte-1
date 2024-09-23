@@ -38,6 +38,7 @@
          this.dtpFechaNac = new System.Windows.Forms.DateTimePicker();
          this.tbName = new System.Windows.Forms.TextBox();
          this.tbLastName = new System.Windows.Forms.TextBox();
+         this.lbPersona = new System.Windows.Forms.ListBox();
          this.SuspendLayout();
          // 
          // label1
@@ -123,11 +124,20 @@
          this.tbLastName.Size = new System.Drawing.Size(100, 20);
          this.tbLastName.TabIndex = 9;
          // 
+         // lbPersona
+         // 
+         this.lbPersona.FormattingEnabled = true;
+         this.lbPersona.Location = new System.Drawing.Point(46, 315);
+         this.lbPersona.Name = "lbPersona";
+         this.lbPersona.Size = new System.Drawing.Size(270, 95);
+         this.lbPersona.TabIndex = 10;
+         // 
          // Form1
          // 
          this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
          this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
          this.ClientSize = new System.Drawing.Size(800, 450);
+         this.Controls.Add(this.lbPersona);
          this.Controls.Add(this.tbLastName);
          this.Controls.Add(this.tbName);
          this.Controls.Add(this.dtpFechaNac);
@@ -157,6 +167,7 @@
       private System.Windows.Forms.DateTimePicker dtpFechaNac;
       private System.Windows.Forms.TextBox tbName;
       private System.Windows.Forms.TextBox tbLastName;
+      private System.Windows.Forms.ListBox lbPersona;
    }
 }
 
