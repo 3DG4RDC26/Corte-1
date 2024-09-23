@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="clases\Operacion.cs" />
     <Compile Include="clases\Persona.cs" />
+    <Compile Include="clases\Registro.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
